@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Computer Engineering Student</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Hi, I'm Prithak</h1>
+      <p>An aspiring Computer Engineer (currently studying)</p>
+      <div class="cta-buttons">
+        <a href="resume.pdf" class="btn" target="_blank">View Resume</a>
+        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I'm a computer engineering student who loves exploring how technology can make life better. While I'm still learning, I enjoy diving into areas like web development, algorithms, and creative problem-solving.
+
+        I find a lot of joy in experimenting with new tools and building small projects that challenge me to think 
+        in new ways. For me, every step is an opportunity to grow, 
+        and I’m excited to keep discovering how I can contribute to meaningful solutions, no matter how small.</p>
+      <p>Skills: HTML, CSS, JavaScript, C , C++.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card" onclick="toggleDetails('project1-details')">
+          <h3>Website design </h3>
+          <p>A responsive and creative artist website.</p>
+          <a href="https://www.prithakkoirala.com.np" target="_blank" class="btn btn-link">Visit Website</a>
+          <div id="project1-details" class="project-details">
+            <p>This artist website was designed to showcase my skills, achievements, and personality. It's responsive, minimalist, and optimized for smooth navigation.</p>
+          </div>
+        </div>
+        
+        <div class="project-card" onclick="toggleDetails('project2-details')">
+          <h3>Calculator(JS)</h3>
+          <p>A basic boring Calculator.</p>
+          <a href="Calculator.html" download target="_blank" class="btn btn-link">Run program</a><br>
+          <a onclick="openTabs()" class="btn btn-link">View code</a><br>
+          <div id="project2-details" class="project-details">
+            <p>I made this calculator to gain more insights on how html and js work together.</p>
+          </div>
+        </div>
+          <div class="project-card" onclick="toggleDetails('project3-details')">
+            <h3>League Table manager (C++)</h3>
+            <p>Soccer league table management system.</p>
+            <a href="Final.exe" download target="_blank" class="btn btn-link">Run program</a><br>
+            <a href="Final.cpp" download target="_blank" class="btn btn-link">View code</a>
+            <div id="project3-details" class="project-details">
+              <p>I designed this Soccer league table management system as my C++ project for second semester. </p>
+            </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Prithak All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
