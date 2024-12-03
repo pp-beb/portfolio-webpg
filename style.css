@@ -10,6 +10,8 @@ body {
     max-width: 1100px;
     margin: auto;
     padding: 0 20px;
+    font-style: italic;
+    color:#363636;
   }
   
   header {
@@ -130,4 +132,8 @@ body {
     background: #333;
     color: #fff;
   }
-  
+  .haha{
+    border-radius: 3px;
+    background-color: #0078ff;
+    color: antiquewhite;
+  }
