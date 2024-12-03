@@ -6,7 +6,7 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
     const detailsElement = document.getElementById(detailsId);
     const parentCard = detailsElement.parentElement;
   
-    // Toggle "active" class to show or hide details
+    
     if (parentCard.classList.contains('active')) {
       parentCard.classList.remove('active');
     } else {
@@ -21,3 +21,7 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
     window.open('Calculator.js','_blank');
   }
   
+  function haha()
+  {
+    alert("Chiki chiki slim shady (cought you stalking)")
+  }
